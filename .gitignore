@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.db
+*.sqlite*
+.venv*/
+venv*/
+*.egg-info/
+.pytest_cache/
+
+# Env
+.env
+.env*.local
+.env.local
+
+# Storage & Vectors
+storage/
+.qdrant-initialized
+
+# Node
+node_modules/
+.next/
+out/
+
+# Data
+data/sample_documents/*.pdf
+!data/sample_documents/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker & Logs
+*.log

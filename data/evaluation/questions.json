@@ -1,0 +1,23 @@
+[
+  {
+    "question": "What was the company's total revenue in the most recent fiscal year?",
+    "expected_answer": "See the income statement / revenue section of the uploaded annual report.",
+    "document": "REPLACE_WITH_YOUR_UPLOADED_FILENAME.pdf",
+    "page": 1,
+    "expected_evidence_substring": "revenue"
+  },
+  {
+    "question": "What are the main risk factors disclosed by the company?",
+    "expected_answer": "See the Risk Factors section of the uploaded annual report.",
+    "document": "REPLACE_WITH_YOUR_UPLOADED_FILENAME.pdf",
+    "page": 1,
+    "expected_evidence_substring": "risk"
+  },
+  {
+    "question": "What was the year-over-year change in gross margin?",
+    "expected_answer": "See the financial statements / MD&A section.",
+    "document": "REPLACE_WITH_YOUR_UPLOADED_FILENAME.pdf",
+    "page": 1,
+    "expected_evidence_substring": "gross margin"
+  }
+]
